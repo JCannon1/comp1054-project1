@@ -1,3 +1,4 @@
+/* created a container to store all page content */
 #container {
 	border: 1px solid white;
 	display: flex;
@@ -6,6 +7,7 @@
     justify-content: flex-start;
     align-items: stretch;
 }
+/* positioned the header in top left corner */
 header p {
     position: absolute;
     top: 0;
@@ -15,6 +17,7 @@ header p {
     letter-spacing: 1px;
     font-family: "New Courier", Serif;
 }
+/* changed the main title colour to darkorange */
 h1 {
     color: darkorange;
     text-transform: lowercase;
@@ -22,11 +25,13 @@ h1 {
     font-family: "New Courier", Serif; 
     text-align: center;
 }
+/* made all h2 content lowercase */
 h2 {
     text-transform: lowercase;
     font-family: "New Courier", Serif; 
     font-size: 38px;
 }
+/* made all h3 elements have uppercase text */
 h3 {
     text-transform: uppercase;
 }
@@ -36,6 +41,7 @@ main {
     display: flex;
     flex-wrap: wrap;
 }
+/* put all of the section elements together to be placed on the right side */
 section.keeptogether {
     display: inline-block;
     width: 700px;
@@ -43,6 +49,7 @@ section.keeptogether {
     right: 0;
     top: 450px;
 }
+/* positioned the aside to the top left */
 aside {
     flex-basis: 1;
     order: 1;
@@ -52,11 +59,13 @@ aside {
     left: -740px;
     top: -15px;
 }
+/* created a divider above the live well section */
 .live-well {
     border-top:14px solid limegreen;
     flex-basis: 700px;
     order: 3;
 }
+/* changed the h3 colour to limegreen */
 .live-well h3 {
     color: limegreen;
 }
@@ -76,6 +85,7 @@ aside {
 .health h3 {
     color: darkturquoise;
 }
+/* changed the size and position of the aside content under the image */
 .legend {
     border: 1px solid orange;
     height: 400px;
@@ -91,6 +101,7 @@ aside figure p {
     left: 60px;
     top: -80px;
 }
+/* made the aside strong text uppercase */
 aside strong {
     text-transform: uppercase;
 }
@@ -99,6 +110,7 @@ figcaption strong {
     top: -80px;
     font-size: 70px;
 }
+/* rotated the text counter-clockwise and positioned it to the left of the .legend */
 .keith {
     transform: rotate(-90deg);
     color: black;
@@ -106,9 +118,11 @@ figcaption strong {
     top: 1610px;
     left: -20px;
 }
+/* increased the line-height of the list */
 aside ol {
     line-height: 2;
 }
+/* positioned the footer in the bottom right corner */
 footer {
     border: 5px solid white;
 	background: white;
@@ -117,6 +131,7 @@ footer {
     bottom: -1450px;
     right: 10px;
 }
+/* added the orange colour to the disc in the footer */
 footer bold {
     color: orange;
 }
