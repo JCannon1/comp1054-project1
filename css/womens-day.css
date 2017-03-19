@@ -1,0 +1,122 @@
+#container {
+	border: 1px solid white;
+	display: flex;
+    flex-wrap: wrap;
+	flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+header p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 700px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: "New Courier", Serif;
+}
+h1 {
+    color: darkorange;
+    text-transform: lowercase;
+    font-size: 200px;
+    font-family: "New Courier", Serif; 
+    text-align: center;
+}
+h2 {
+    text-transform: lowercase;
+    font-family: "New Courier", Serif; 
+    font-size: 38px;
+}
+h3 {
+    text-transform: uppercase;
+}
+main {
+    border: 5px solid white;
+    background: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+section.keeptogether {
+    display: inline-block;
+    width: 700px;
+    position: absolute;
+    right: 0;
+    top: 450px;
+}
+aside {
+    flex-basis: 1;
+    order: 1;
+    display: inline-block;
+    width: 700px;
+    position: absolute;
+    left: -740px;
+    top: -15px;
+}
+.live-well {
+    border-top:14px solid limegreen;
+    flex-basis: 700px;
+    order: 3;
+}
+.live-well h3 {
+    color: limegreen;
+}
+.style {
+    border-top:14px solid deeppink;
+    flex-basis: 700px;
+    order: 4;
+}
+.style h3 {
+    color: deeppink;
+}
+.health {
+    border-top:14px solid darkturquoise;
+    flex-basis: 700px;
+    order: 5;
+}
+.health h3 {
+    color: darkturquoise;
+}
+.legend {
+    border: 1px solid orange;
+    height: 400px;
+    width: 450px;
+    order: 2;
+    position: absolute;
+    top: 1250px;
+    left: -650px;
+}
+aside figure p {
+    color: white;
+    position: relative;
+    left: 60px;
+    top: -80px;
+}
+aside strong {
+    text-transform: uppercase;
+}
+figcaption strong {
+    position: absolute;
+    top: -80px;
+    font-size: 70px;
+}
+.keith {
+    transform: rotate(-90deg);
+    color: black;
+    position: absolute;
+    top: 1610px;
+    left: -20px;
+}
+aside ol {
+    line-height: 2;
+}
+footer {
+    border: 5px solid white;
+	background: white;
+    text-align: right;
+    position: absolute;
+    bottom: -1450px;
+    right: 10px;
+}
+footer bold {
+    color: orange;
+}
